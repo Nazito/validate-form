@@ -3288,7 +3288,11 @@ form {
 
 @media screen and (max-width: 460px) {
   .content__items_form-validation {
-    width: 400px; } }
+    width: 400px; }
+  .select__list {
+    top: 38px; }
+    .select__list.active {
+      right: 214px; } }
 
 @media screen and (max-width: 420px) {
   .content__items_form-validation {
@@ -3330,7 +3334,11 @@ form {
     -webkit-justify-content: center;
        -moz-box-pack: center;
         -ms-flex-pack: center;
-            justify-content: center; } }
+            justify-content: center; }
+  .select__list {
+    top: 38px; }
+    .select__list.active {
+      right: 121px; } }
 
 /*
 ^.^.^.^.^.^.^.^.^.^.^.^.^.^.^.^.^.^.^.^.^.^.^.^.^.^.^.^.^.^.^.^.^.^.^.^.^.^.^.^

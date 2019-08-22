@@ -1240,6 +1240,15 @@ form{
 	.content__items_form-validation{
 		width: 400px;
 	}
+
+	.select__list{
+
+		top:38px;
+
+		&.active{
+			right: 214px;
+		}
+	}
 }
 
 @media screen and (max-width: 420px) {
@@ -1280,6 +1289,15 @@ form{
 		display: flex;
 		align-items: center;
 		justify-content: center;
+	}
+
+	.select__list{
+
+		top:38px;
+
+		&.active{
+			right: 121px;
+		}
 	}
 
 }
